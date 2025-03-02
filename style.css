@@ -1,0 +1,59 @@
+
+body header div img.logo-img{
+    display: block;
+    margin: auto;
+    padding-block: 8rem 2rem;
+}
+
+body header{
+    background-image:url(https://exiviuz.github.io/fem-clipboard-landing-page/images/bg-header-desktop.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+body header div h1{
+    color: #4c545d;
+    font-size: clamp(1.5rem, 1.1546rem + 1.8421vw, 2.8125rem);
+}
+
+body header div pre{
+    color: #9fabb2;
+}
+
+body header div.button{
+    margin-top: 1.5rem;
+}
+
+body header div.button button.ios-button{
+    background-color: #26baa4;
+    border-radius: 2rem;
+    padding: 1rem 2.5rem;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+    color: white;
+    border-bottom: 3px solid #156659;
+}
+
+body header div.button button.mac-button {
+    background-color: #6173ff;
+    border-radius: 2rem;
+    padding: 1rem 2.5rem;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+    color: white;
+    border-bottom: 3px solid #001194;
+}
