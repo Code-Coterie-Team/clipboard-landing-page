@@ -1,4 +1,3 @@
-
 body header div img.logo-img{
     display: block;
     margin: auto;
@@ -30,6 +29,7 @@ body header div pre{
 
 body header div.button{
     margin-top: 1.5rem;
+    margin-right: 10px;
 }
 
 body header div.button button.ios-button{
@@ -43,6 +43,7 @@ body header div.button button.ios-button{
     font-weight: 600;
     color: white;
     border-bottom: 3px solid #156659;
+    margin-right: 15px;
 }
 
 body header div.button button.mac-button {
@@ -56,4 +57,6 @@ body header div.button button.mac-button {
     font-weight: 600;
     color: white;
     border-bottom: 3px solid #001194;
+    margin-right: 15px;
+
 }
