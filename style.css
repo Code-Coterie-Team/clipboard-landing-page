@@ -157,3 +157,46 @@ body main section div section img.diviconee{
     align-items: center;
     margin-left: 40px;
 }
+
+footer {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.footer-logo {
+    height: 60px;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav li a {
+    color: #9fabb2;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons img {
+    height: 24px;
+}
