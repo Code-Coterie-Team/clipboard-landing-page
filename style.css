@@ -2,11 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Bai Jamguree', sans-serif;
 }
 
 body {
+    font-family: 'Bai Jamguree', sans-serif;
     font-size: 18px;
+}
+
+pre{
+    font-family: 'Bai Jamguree', sans-serif;
 }
 
 body header div img.logo-img{
