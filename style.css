@@ -1,12 +1,12 @@
-*{
-    font-family: 'Bai Jamguree' , sans-serif;
-    font-size: 18px;
-}
-
-body{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamguree', sans-serif;
+}
 
+body {
+    font-size: 18px;
 }
 
 body header div img.logo-img{
@@ -112,6 +112,10 @@ h3{
     margin-left: 120px;
     font-size: 22px;
     color: #4c545d;
+}
+
+body main section.section2 div pre.prediv{
+    margin-left: 2.5rem;
 }
 
 body main section.section3{
